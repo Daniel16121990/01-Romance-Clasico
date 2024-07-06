@@ -554,6 +554,65 @@ width: 250px;
 height: auto;
 margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
+/* *********************************para padres y padrinos************************************ */
+.contenedorMain .section_bendicion{
+  width: 100%;
+  margin: 50px auto;
+  background-color: var(--color-pallete-5);
+  box-shadow: 0px -5px 20px -8px rgba(0,0,0,0.75), /* sombreado superior */
+            0px 5px 10px -5px rgba(0,0,0,0.75); /* sombreado inferior */
+}
+.contenedorMain .section_bendicion .titulo_bendicion{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contenedorMain .section_bendicion .titulo_bendicion p{
+  font-family: var(--fuente1);
+  color: var(--color-pallete-1);
+  font-size: 2rem;
+  padding-top: 20px;
+}
+.contenedorMain .section_bendicion .div_bendicion{
+  height: 210px;
+  display: flex;
+  overflow-x: auto;
+  background-color: var(--color-pallete-5);
+  user-select: none;
+}
+.contenedorMain .section_bendicion .div_bendicion .item{
+
+  display: flex;
+     flex-direction: column;
+     align-items: center;
+     min-width: 190px;
+     height: 145px; /* Ajusta esta altura según sea necesario */
+     text-align: center;
+     background-color: var(--color-pallete-5);
+     margin-right: 2px;
+     padding: 10px;
+     box-sizing: border-box;
+     
+ }
+ .contenedorMain .section_bendicion .div_bendicion .item img{
+  width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+  margin-top: 10px;
+  pointer-events: none; /* Desactiva los eventos del mouse en la imagen */
+  border-radius: 50%;
+
+}
+.contenedorMain .section_bendicion .div_bendicion .item .texto_bendicion{
+  margin: 0;
+  color: var(--color-pallete-4);
+  font-weight: 500;
+  font-family: var(--fuente2);
+  font-size: 14px; /* Ajusta el tamaño del texto según sea necesario */
+}
+.contenedorMain .section_bendicion .div_bendicion::-webkit-scrollbar{
+  width: 10%;
+  }
+/* ******************************************************************************************** */
 .contenedorMain .section_programacion{
   width: 100%;
   margin: 50px auto;
@@ -564,8 +623,6 @@ margin: 0 auto; /* Centrar la imagen horizontalmente */
 .contenedorMain .section_programacion .titulo_programacion{
   text-align: center;
   margin-bottom: 20px;
-  
-
 }
 .contenedorMain .section_programacion .titulo_programacion p{
   font-family: var(--fuente1);
