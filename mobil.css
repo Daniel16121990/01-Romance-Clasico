@@ -1,10 +1,10 @@
 :root{
-  --color-pallete-1: #655b58;
-  --color-pallete-2: #d3af9b;
-  --color-pallete-3: #b49073;
-  --color-pallete-4: #8c755e;
-  --color-pallete-5: #fdfcf4;
-  --color-pallete-6: #f3eee2;
+   --color-pallete-1:#655b58; /*fuente*/
+  --color-pallete-2: #d3af9b; 
+  --color-pallete-3: #b49073;/*color de botones*/
+  --color-pallete-4: #8c755e;/*fuente2*/
+  --color-pallete-5: #fdfcf4;/*tarjetas*/
+  --color-pallete-6: #f3eee2;/*color de fondo*/  
 
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
