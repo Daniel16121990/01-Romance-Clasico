@@ -36,7 +36,7 @@ background-color: var(--color-pallete-6);
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgb(139, 94, 94);
+        background-color: var(--color-pallete-6);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,6 +46,7 @@ background-color: var(--color-pallete-6);
 }
 .modalCarga p{
   font-size: 2rem;
+  color: var(--color-pallete-4);
 }
 .modalCarga .corazon_carga{
   width: 60px;
