@@ -48,8 +48,10 @@ background-color: var(--color-pallete-6);
   font-size: 2rem;
   color: var(--color-pallete-4);
 }
-.modalCarga .corazon_carga{
-  width: 60px;
+.modalCarga .corazon_carga_lotties{
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
 }
 /* Estilos para el modal */
 .modalInicio {

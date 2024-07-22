@@ -265,3 +265,12 @@ const sliderBendicion = document.querySelector('.div_bendicion');
 
 initializeSlider(sliderProgramacion);
 initializeSlider(sliderBendicion);
+
+//Para animaciones losttie creator
+var animation = lottie.loadAnimation({
+  container: document.getElementById('lottie-container'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: './assets/gifs/heart_load.json' // Reemplaza con la ruta correcta a tu archivo JSON
+});

@@ -7,7 +7,7 @@
 
     <!-- librerias para el carrusel de imagenes -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     <!-- fin de librerias de el carrusel de imagenes -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,11 +25,13 @@
     <link rel="stylesheet" href="./mobil.css">
     <!-- Para computadora -->
     <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)">
+    <!-- para usar animaciones con lottie creator -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
 </head>
 <body class=".body-sin-scroll">
     <div class="modalCarga" id="modalCarga">
         <p>Hola, esperame unos segundos mientras preparo tu invitación 😊</p>
-        <img class="corazon_carga" src="./assets/gifs/love.gif" alt="corazon">
+        <div class="corazon_carga_lotties" id="lottie-container"></div>
     </div>
     <!-- Modal de inicio -->
     <section id="modalInicio" class="modalInicio">
