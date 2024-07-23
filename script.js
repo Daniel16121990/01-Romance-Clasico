@@ -126,6 +126,7 @@ window.addEventListener('resize', ajustarTamanio3);
 // Cerrar el modal automáticamente cuando se carguen todos los recursos
 window.onload = function() {
   var overlay = document.getElementById('modalCarga');
+  document.body.classList.add('body-sin-scroll'); // Deshabilitar el desplazamiento del cuerpo
   overlay.style.display = 'none';
   abrirModal()
 };
