@@ -469,9 +469,9 @@ margin: 0 10px;
 z-index: 5;
 }
 
-.sectionBendicionPadresDios2 .contenedorInternoBlanco2 .divTitulo .imgIglesia{
-margin-top: 40px;
-width: 100px;
+.sectionBendicionPadresDios2 .contenedorInternoBlanco2 .divTitulo .gifs_lotties{ 
+  padding-top: 20px;
+  margin: 0 auto;
 }
 .sectionBendicionPadresDios2 .contenedorInternoBlanco2 .divTitulo .tituloCeremonia{
 font-size: 3.5rem;
@@ -539,8 +539,9 @@ font-family: var(--fuente2);
 color: var(--color-pallete-2);
 margin-bottom: 20px;
 }
-.sectionCarrusel .divCarruselTitulo .imgCamara{
+.sectionCarrusel .divCarruselTitulo .gifs_lotties{
 width: 100px;
+margin: 0 auto;
 }
 
 

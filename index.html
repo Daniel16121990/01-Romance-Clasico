@@ -20,13 +20,14 @@
 
     <!-- <link rel="icon" href="./assets/iconos/favicon.svg" type="image/svg+xml"> -->
     <!-- <link rel="icon" type="image/x-icon" href="./assets/iconos/favicon2.ico"> -->
-    <link rel="shortcut icon" href="./assets/iconos/favicon2.ico">
+    <link rel="shortcut icon" href="./assets/iconos/favicon.svg">
 
     <link rel="stylesheet" href="./mobil.css">
     <!-- Para computadora -->
     <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 800px)">
     <!-- para usar animaciones con lottie creator -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body class=".body-sin-scroll">
     <div class="modalCarga" id="modalCarga">
@@ -161,7 +162,14 @@
                 </svg>
                 <div class="contenedorInternoBlanco2">
                     <div class="divTitulo">
-                        <img class="imgIglesia" src="./assets/gifs/iglesia.gif" alt="">
+                        <lottie-player class="gifs_lotties"
+                            src="./assets/gifs/iglesia_lottie_optimizada.json"
+                            background="#ffffff"
+                            speed="0.5"
+                            style="width: 100px; height: 100px;"
+                            loop
+                            autoplay>
+                        </lottie-player>
                         <p class="tituloCeremonia">Ceremonia</p>
                         <img src="./assets/bordes_modal_inicial/adorno_divisor.svg" alt="">
                     </div>
@@ -196,7 +204,14 @@
                 </svg>
                 <div class="contenedorInternoBlanco2">
                     <div class="divTitulo">
-                        <img class="imgIglesia" src="./assets/gifs/brindis.gif" alt="">
+                        <lottie-player class="gifs_lotties"
+                            src="./assets/gifs/brindis_lottie_optimizada.json"
+                            background="#ffffff"
+                            speed="0.5"
+                            style="width: 100px; height: 100px;"
+                            loop
+                            autoplay>
+                        </lottie-player>
                         <p class="tituloCeremonia">Celebración</p>
                         <img src="./assets/bordes_modal_inicial/adorno_divisor.svg" alt="">
                     </div>
@@ -225,7 +240,14 @@
                 <img src="./assets/iconos/viñeta1.svg" alt="">
                 <p class="tituloRetratos">Retratos de Nuestro Amor</p>
                 <p class="fraseCarrusel">Cada fotografía es un fragmento de nuestra historia, grabada en el corazón de la eternidad</p>
-                <img class="imgCamara" src="./assets/gifs/camera.gif" alt="">
+                <lottie-player class="gifs_lotties"
+                            src="./assets/gifs/camara_lottie_optimizada.json"
+                            background="#ffffff"
+                            speed="0.5"
+                            style="width: 100px; height: 100px;"
+                            loop
+                            autoplay>
+                        </lottie-player>
             </div>
             <div class="carrusel">
                 <div><img src="./assets/fotos/pareja_portada.webp" alt="Imagen 1"></div>
@@ -299,7 +321,14 @@
                 <img class="imgDivisorEscribenos" src="./assets/bordes_modal_inicial/adorno_divisor.svg" alt="viñeta">
                 <p class="fraseEscribenos">Compartimos este momento contigo con alegría</p>
                 <p class="fraseEscribenos2">Escribenos un mensaje o dedicanos alguna canción</p>
-                <img class="imgCarta" src="./assets/gifs/carta.gif" alt="escribenos">
+                <lottie-player class="gifs_lotties"
+                            src="./assets/gifs/mensaje_lottie_optimizada.json"
+                            background="#ffffff"
+                            speed="0.6"
+                            style="width: 100px; height: 100px;"
+                            loop
+                            autoplay>
+                        </lottie-player>
                 <button class="btnEscribenos">Escríbenos</button>
             </div>
         </section>
